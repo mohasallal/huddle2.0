@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+:root {
+  /*Primary*/
+  --Primary-Pink: hsl(322, 100%, 66%);
+  /*Neutra*/
+  --Very-Pale-Cyan: hsl(193, 100%, 96%);
+  --Very-Dark-Cyan: hsl(192, 100%, 9%);
+  --Grayish-Blue: hsl(208, 11%, 55%);
+  --white-Color: hsl(0, 0%, 100%);
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", "Helvetica Neue", "Helvetica";
+}
+
+/*Buttons*/
+.BtnOne {
+  border: none;
+  color: var(--Very-Dark-Cyan);
+  padding: 12px 45px;
+  background-color: var(--white-Color);
+  box-shadow: 0.25rem 0.25rem 0.75rem rgba(0, 0, 0, 0.15);
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 50px;
+}
+.BtnOne:hover {
+  color: var(--Grayish-Blue);
+  transition-duration: 0.2s;
+  transition-timing-function: ease-out;
+}
+
+.BtnTwo {
+  border: none;
+  color: var(--Very-Pale-Cyan);
+  padding: 12px 45px;
+  background-color: var(--Primary-Pink);
+  box-shadow: 0.25rem 0.25rem 0.75rem rgba(0, 0, 0, 0.15);
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+.BtnTwo:hover {
+  opacity: 0.9;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-out;
+}
+/*End of Buttons*/

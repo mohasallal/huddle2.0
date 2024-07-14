@@ -1,0 +1,93 @@
+:root {
+  /*Primary*/
+  --Primary-Pink: hsl(322, 100%, 66%);
+  /*Neutra*/
+  --Very-Pale-Cyan: hsl(193, 100%, 96%);
+  --Very-Dark-Cyan: hsl(192, 100%, 9%);
+  --Grayish-Blue: hsl(208, 11%, 55%);
+  --white-Color: hsl(0, 0%, 100%);
+}
+
+footer {
+  background-color: var(--Very-Dark-Cyan);
+  padding: 100px 50px;
+  position: relative;
+}
+
+.Adv {
+  width: 500px;
+  background-color: var(--white-Color);
+  text-align: center;
+  padding: 40px 50px;
+  position: absolute;
+  top: -103px;
+  left: calc(50% - 300px);
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.Bottom {
+  color: var(--white-Color);
+}
+
+.Bottom div {
+  margin: 20px 0;
+}
+
+.Infos {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 50px;
+}
+
+.Infos div {
+  width: 100%;
+}
+
+.Infos__left {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.Infos__left div {
+  margin: 0;
+  width: 24px;
+}
+
+.scoial img {
+  padding: 5px;
+  border: 1px solid var(--white-Color);
+  border-radius: 50%;
+}
+
+.Copy__right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .Adv {
+    width: 80%;
+    padding: 20px 30px;
+    left: calc(10% - 30px);
+  }
+
+  .Infos {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .scoial div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Column {
+    margin: 0;
+  }
+}
